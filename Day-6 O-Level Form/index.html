@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body bgcolor="lightpink">
+    <center>
+        <h2>Registration Application Form For Course-O Level</h2>
+    </center>
+
+    <form action="submit">
+
+        <table align="center" border="2" style="background-color:skyblue">
+            <!-- ******************Row1 -->
+            <tr>
+                <th colspan="3"
+                    style="color: white;font-weight: 400; text-align: center; background-color: blue; width: 100%;">
+                    <b>1.Registration Form </b></th>
+            </tr>
+
+            <tr>
+                <td>1.0</td>
+                <td>
+                    <label for="Reg"> Have You Got Online reference Number For Enrolment With
+                        NIELIT/Accredition/Extension Center</label>
+                </td>
+
+
+                <td>
+                    <input type="radio" value="Reg" name="gen">Yes
+                    <input type="radio" value="Reg" name="gen">No
+
+
+                </td>
+
+
+            </tr>
+            <tr>
+                <td>1.1</td>
+                <td>
+                    <label for="Reg">Registration Sought For</label>
+
+                </td>
+                <td>
+                    <Select name="Reg" id="Reg">
+                        <option value="OLevel"> O-level</option>
+                        <option value="ALevel"> A-level</option>
+                        <option value="SI"> Summer-training</option>
+
+                    </Select>
+
+
+                </td>
+
+
+
+
+            </tr>
+
+
+            <tr>
+                <td>1.2</td>
+                <td> <label for="Apply">Apply As </label></td>
+                <td>
+                    <input type="radio" name="Apply" VALUE="Apply">Direct Candidate
+                    <input type="radio" name="Apply" value="Apply">Through Institute
+
+                </td>
+
+            </tr>
+            <tr>
+                <td>1.3</td>
+                <td><label for="EC">Exam Cycle</label></td>
+                <td><select name="EC" id="EC">
+                        <option value="July2025">July2025</option>
+                        <option value="August2025">August2025</option>
+                        <option value="November2025">November2025</option>
+                        <option value="December2025">December2025</option>
+
+                    </select></td>
+
+
+            </tr>
+
+            <tr>
+                <td>1.4</td>
+                <td><label for="Fee">Registration Fee Will be Paid By?</label></td>
+                <td><select name="Fee" id="Fee">
+                        <option value="Fee">Candidate Directly to NIELIT</option>
+                        <option value="Fee">Scholorship</option>
+                        <option value="Fee">College/Institution</option>
+                        <option value="Fee">Government </option>
+
+                    </select></td>
+
+
+
+
+
+            </tr>
+            <tr>
+            <tr>
+                <th colspan="3"
+                    style="color: white;font-weight: 400; text-align: center; background-color: blue; width: 100%;">
+                    <b>2.Applicant's Details</b></th>
+            </tr>
+            </tr>
+
+            <tr>
+                <td>2.1</td>
+                <td> <label for="Name"> Applicant's Name</label></td>
+                <td>
+                    <select name="name" id="name">
+
+                        <option value="mr">Mr.</option>
+                        <option value="mrs">Mrs.</option>
+                        <option value="Others">Others</option>
+                    </select>
+                    <input type="text" placeholder="Full Name">
+
+
+
+                </td>
+
+            </tr>
+            <tr>
+
+                <td>2.2</td>
+                <td><label for="Care">Care Of</label></td>
+                <td><input type="radio" name="Care" id="Care">parents
+                    <input type="radio" name="Care" id="Care"> Guardian
+                </td>
+
+            </tr>
+            <tr>
+                <td>2.2.1</td>
+                <td> <label for="Name"> Father's Name</label></td>
+                <td>
+                    <select name="name" id="name">
+
+                        <option value="mr">Mr.</option>
+
+                    </select>
+                    <input type="text" placeholder=" Father Full Name">
+
+
+
+                </td>
+
+            </tr>
+            <tr>
+                <td>2.2.2</td>
+                <td> <label for="Name"> Mother's Name</label></td>
+                <td>
+                    <select name="name" id="name">
+
+
+                        <option value="mrs">Mrs.</option>
+                    </select>
+                    <input type="text" placeholder=" Mother Full Name">
+
+
+
+                </td>
+
+            </tr>
+            <tr>
+                <td>2.3</td>
+                <td>
+                    <label for="Gender">Gender</label>
+                </td>
+                <td>
+                    <input type="radio" name="Gender" value="male">Male
+                    <input type="radio" name="Gender" value="Female">Female
+                    <input type="radio" name="Gender" value="Others">Others
+
+
+
+                </td>
+
+            </tr>
+            <tr>
+                <td>2.4</td>
+                <td><label for="DOB">Date Of Birth</label></td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td>2.5</td>
+                <td><label for="MS">Marital Status</label></td>
+                <td><select name="MS" id="MS">
+                        <option value="unmarried">unmarried</option>
+                        <option value="married">married</option>
+
+                    </select></td>
+
+
+            </tr>
+            <tr>
+                <td>2.6</td>
+                <td><label for="Category">Category</label></td>
+                <td><select name="Category" id="Category">
+                        <option value="General">General</option>
+                        <option value="OBC">OBC</option>
+                        <option value="SC">SC</option>
+                        <option value="ST">ST</option>
+
+                    </select></td>
+
+
+            </tr>
+            <tr>
+                <td>2.7</td>
+                <td>
+                    <label for="Handicapped">Handicapped</label>
+                </td>
+                <td>
+                    <input type="radio" name="Handicapped" value="No">No
+                    <input type="radio" name="Handicapped" value="Yes">Yes
+
+
+
+
+                </td>
+
+            </tr>
+            <tr>
+                <td>2.8</td>
+                <td>
+                    <label for="Ex-Servicemen">Ex-Servicemen</label>
+                </td>
+                <td>
+                    <input type="radio" name="Ex-Servicemen" value="No">No
+                    <input type="radio" name="Ex-Servicemen" value="Yes">Yes
+
+
+
+
+                </td>
+
+            </tr>
+            <tr>
+                <td>2.9</td>
+                <td>
+                    <label for="EWS">EWS</label>
+                </td>
+                <td>
+                    <input type="radio" name="EWS" value="No">No
+                    <input type="radio" name="EWS" value="Yes">Yes
+
+
+
+
+                </td>
+
+            </tr>
+            <tr>
+                <td>2.10</td>
+                <td><label for="Religion">Religion</label></td>
+                <td><select name="Religion" id="Religion">
+                        <option value="Hindu">Hindu</option>
+                        <option value="Sikh">Sikh</option>
+                        <option value="Jain">Jain</option>
+                        <option value="Buddha">Buddha</option>
+                        <option value="Parsi">Parsi</option>
+                        <option value="Christian">Christian</option>
+                        <option value="Muslim">Muslim</option>
+                        <option value="Nota">Any Other</option>
+                    </select></td>
+
+
+            </tr>
+            <tr>
+                <th colspan="3"
+                    style="color: white;font-weight: 400; text-align: center; background-color: blue; width: 100%;">
+                    <b>3.Contact Details</b></th>
+            </tr>
+
+            <tr>
+                <td>3.1</td>
+                <td>
+                    <label for="mob">Mobile Number</label>
+                </td>
+                <td><input type="text" placeholder="10-Digit Mobile Number"></td>
+
+            </tr>
+            <tr>
+
+                <td>3.2</td>
+                <td><label for="E-mail">E-mail ID</label></td>
+                <td><input type="email" placeholder="E-mail ID"></td>
+            </tr>
+            <tr>
+
+                <td>3.3.1</td>
+                <td><label for="al1">Address Line 1</label></td>
+                <td><input type="text" placeholder="Address Line 1"></td>
+            </tr>
+
+            <tr>
+
+                <td>3.3.2</td>
+                <td><label for="al2">Address Line 2</label></td>
+                <td><input type="text" placeholder="Address Line 2"></td>
+            </tr>
+
+            <tr>
+
+                <td>3.3.2</td>
+                <td><label for="City">City</label></td>
+                <td><input type="text" placeholder="City"></td>
+            </tr>
+            <tr>
+                <td>3.4 </td>
+                <td> <label for="State">State</label></td>
+                <td>
+                    <select>
+                        <option>--Select--</option>
+                        <option value="Andhra Pradesh">Andhra Pradesh</option>
+                        <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                        <option value="Assam">Assam</option>
+                        <option value="Bihar">Bihar</option>
+                        <option value="Chandigarh">Chandigarh</option>
+                        <option value="Chhattisgarh">Chhattisgarh</option>
+                        <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+                        <option value="Daman and Diu">Daman and Diu</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Lakshadweep">Lakshadweep</option>
+                        <option value="Puducherry">Puducherry</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Gujarat">Gujarat</option>
+                        <option value="Haryana">Haryana</option>
+                        <option value="Himachal Pradesh">Himachal Pradesh</option>
+                        <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                        <option value="Jharkhand">Jharkhand</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Madhya Pradesh">Madhya Pradesh</option>
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="Manipur">Manipur</option>
+                        <option value="Meghalaya">Meghalaya</option>
+                        <option value="Mizoram">Mizoram</option>
+                        <option value="Nagaland">Nagaland</option>
+                        <option value="Odisha">Odisha</option>
+                        <option value="Punjab">Punjab</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                        <option value="Sikkim">Sikkim</option>
+                        <option value="Tamil Nadu">Tamil Nadu</option>
+                        <option value="Telangana">Telangana</option>
+                        <option value="Tripura">Tripura</option>
+                        <option value="Uttar Pradesh">Uttar Pradesh</option>
+                        <option value="Uttarakhand">Uttarakhand</option>
+                        <option value="West Bengal">West Bengal</option>
+                    </select>
+                </td>
+
+
+
+            </tr>
+            <tr>
+                <td>3.5</td>
+                <td>Pincode</td>
+                <td><input type="text" placeholder="Pincode"></td>
+            </tr>
+            <tr>
+                <th colspan="3"
+                    style="color: white;font-weight: 400; text-align: center; background-color: blue; width: 100%;">
+                    <b>4.Educational/Qualification Details</b></th>
+            </tr>
+            <tr>
+                <td>4.1</td>
+                <td>Highest Educational Qualification</td>
+
+
+                <td>
+                    <select>
+                        <option>--Select--</option>
+
+                        <option value="school">10th/12th Pass</option>
+                        <option value="Diploma">Diploma</option>
+                        <option value="Graduate">Graduate</option>
+
+                </td>
+
+            </tr>
+            <tr>
+                <td>4.2</td>
+                <td><label for="YOP">Year Of Passing</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th colspan="3"
+                    style="color: white;font-weight: 400; text-align: center; background-color: blue; width: 100%;">
+                    <b>5.Identification Details</b></th>
+            </tr>
+
+
+            <tr>
+                <th>5.1</th>
+                <th><label for="Identification">Aadhar Card Number</label></th>
+                <th><input maxlength="12" type="text" placeholder=" 12-digit Aadhar Card Number"></th>
+            </tr>
+            <tr>
+                <th>5.2</th>
+                <th><label for="Upload Photo">ID Photo Upload</label></th>
+                <th><input type="file"></th>
+            </tr>
+
+            <tr>
+                <td colspan="3" style="text-align: center;">
+                    <input type="submit">
+
+
+                </td>
+
+
+
+
+
+            </tr>
+
+
+
+
+
+
+        </table>
+
+
+
+
+
+
+
+
+    </form>
+
+
+</body>
+
+</html>
