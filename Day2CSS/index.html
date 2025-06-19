@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <ul class="Navbar">
+        <li><a href="#"><b>Home</b> </a></li>
+
+        <li><a href="#"><b>About</b></a></li>
+        <li class="DropDown"><a href="#">Product</a></li>
+        <ul class="DropDownContent">
+            <a href="#">Product 1 </a>
+            <a href="#">Product 2</a>
+            <a href="#">Product 3</a>
+            <a href="#">Product 4</a>
+
+        </ul>
+        <li><a href="#"><b>Services</b></a></li>
+        <li><a href="#"><b>Contact</b></a></li>
+        <li><a href="#"><b>Users</b></a></li>
+        <li><a href="#"><b>Login</b></a></li>
+
+
+    </ul>
+    <style>
+        body {
+            background: linear-gradient( to right, rgb(223, 87, 183), yellow, rgb(171, 173, 161));
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+
+        }
+
+        .Navbar {
+            border: 4px solid;
+            margin: 20px;
+           
+            display: flex;
+            justify-content: center;
+            background-color: rgb(127, 222, 11);
+            box-shadow: 2px 2px 5px rgb(253, 37, 37);
+            height: 50px;
+            width: auto;
+
+
+            border-bottom: 40px 40px rgb(81, 20, 139)
+        }
+
+        .Navbar>li {
+            position: relative;
+            display: block;
+            padding: 20px 40px;
+            text-decoration: rgb(21, 220, 141);
+            border-right: 3px solid white;
+
+
+
+
+        }
+
+        .Navbar>li:last-child {
+
+            border-right: none;
+        }
+
+        .Navbar>li:hover {
+            background-color: rgb(34, 168, 175);
+
+
+        }
+
+
+         .DropDown {
+            position: relative;
+            display: inline-block;
+
+
+
+            box-shadow: 2px 2px 4px black;
+          
+        
+
+        } 
+         .DropDownContent{
+
+
+            display: none;
+            position: absolute;
+            background-color: beige;
+            z-index: 1;
+            padding: auto;
+         }
+
+        .DropDown:hover .DropDownContent{
+
+            display: block;
+           
+
+        }
+
+    </style>
+
+
+
+
+</body>
+
+</html>

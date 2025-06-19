@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <div class="calculator">
+        <input type="text" class="InputBox" value="0" readonly>
+        <div class="Buttons">
+
+            <button>C</button>
+            <button>%</button>
+            <button> ⏎</button>
+                    <button>/</button>
+
+
+
+
+                    <button>7</button>
+                    <button>8</button>
+                    <button>9</button>
+                    <button>*</button>
+
+
+
+
+
+                    <button>4</button>
+                    <button>5</button>
+                    <button>6</button>
+                    <button>-</button>
+
+
+
+
+
+
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <button>+</button>
+
+
+
+                    <button>00</button>
+                    <button>0</button>
+                    <button>.</button>
+                    <button>=</button>
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+    </div>
+
+    <style>
+        body {
+            background-color: aquamarine;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+
+
+
+        }
+
+        .calculator {
+
+            background-color: rgb(103, 95, 95);
+            padding: 10px;
+
+
+            box-shadow: 10px 10px 10px black;
+            border-radius: 10px;
+            width: 300px;
+
+
+
+
+
+        }
+
+        .InputBox {
+
+            width: 90%;
+            height: 50px;
+            text-align: right;
+            font-size: large;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+            margin-left: 10px;
+
+
+
+
+        }
+
+        .Buttons {
+            margin-left: 20px;
+
+
+            display: grid;
+            grid-template-columns: repeat(4, 60px);
+            text-align: center;
+
+            gap: 5px;
+
+        }
+
+
+
+        .Buttons button {
+
+
+            border-radius: 6px;
+            background-color: rgb(96, 161, 185);
+            color: aliceblue;
+            height: 50px;
+
+            border: 1px;
+            cursor: pointer;
+            font-size: large;
+            font-weight: 500;
+        }
+
+        .Buttons button:hover {
+
+            background-color: rgb(25, 25, 112);
+        }
+    </style>
+
+
+
+
+
+</body>
+
+</html>
